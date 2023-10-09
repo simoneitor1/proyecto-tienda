@@ -1,0 +1,135 @@
+
+*{
+
+
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+      
+  }
+  /* header**/
+  header{
+      background-color: grey; 
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px; 
+      width: 100%;
+      top: 0;
+      position:fixed;
+      z-index: 1;
+      
+      
+  }
+  header img{
+      width: 200px;
+  
+  }
+  header nav ul{
+      list-style: none;
+      display: flex;
+      column-gap: 10px;
+      
+  }
+  header nav ul li a{
+      text-decoration: none;
+      color:white;
+      font-size: 20px; 
+      font-family: 'Fira Sans Extra Condensed', sans-serif;
+  
+  }
+  
+  
+  
+  /*fin de header**/
+  /* main  index**/
+  
+  main{
+      background-color:black;
+      
+  
+  }
+  section{
+      margin-top: 40px;
+  
+  }
+  
+  section h1{ color: white;
+      margin: 40px;
+      font-size: 50px;
+      text-align: center;
+      text-shadow: 2px 1px 2px white;
+      
+  
+  } 
+   main div label{
+    color: white;
+   }
+  .contenedor-flex{
+     
+      
+      display: flex;
+      justify-content:space-evenly;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-bottom: 0px;
+  
+  } 
+  .card{ 
+      margin-bottom: 40px;
+      width: 350px;
+      height: 400px;
+      background-color:gray;
+      text-align: center;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 24px 23px 30px 9px rgba (0,0,0,0.51);
+      -webkit-box-shadow: 24px 23px 30px 9px rgba(0,0,0,0.51);
+      -moz-box-shadow: 24px 23px 30px 9px rgba(0,0,0,0.51);
+  
+  }
+  .card img{
+      
+      width: 100%; 
+  }
+  
+  .banner{
+      margin-top: 220px;
+      background-image:url(./../img/Banner.png);
+      display: flex;
+      gap: 0px;
+      width:auto;
+      
+      
+  }
+  
+  main section form{
+      margin-left: 10px;
+  }
+  
+  /*fin de main**/
+  /* footer **/
+  footer{
+      background-color:grey;
+      display: flex;
+      
+      
+  }
+  
+  footer h3{ 
+      color: beige;
+      margin: 40px;
+      font-size: 30px;
+      text-align: center;
+      text-shadow: 2px 1px 2px white;
+      
+  }
+  .redes img{
+      width: 40px;
+      
+  }
+  
+  .redes{
+      display: flex;
+      align-items: center;
+  }
