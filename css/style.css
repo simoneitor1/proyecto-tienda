@@ -7,6 +7,7 @@
     box-sizing: border-box;
       
   }
+  
   /* header**/
   header{
       background-color: grey; 
@@ -46,6 +47,7 @@
   
   main{
       background-color:black;
+     
       
   
   }
@@ -65,16 +67,14 @@
    main div label{
     color: white;
    }
-  .contenedor-flex{
-     
-      
+
+   .contenedor-flex{ 
       display: flex;
       justify-content:space-evenly;
       flex-wrap: wrap;
       gap: 40px;
       margin-bottom: 0px;
-  
-  } 
+    } 
   .card{ 
       margin-bottom: 40px;
       width: 350px;
@@ -95,7 +95,7 @@
   
   .banner{
       margin-top: 220px;
-      background-image:url(./../img/Banner.png);
+      /* background-image:url(./../img/Banner.png); */
       display: flex;
       gap: 0px;
       width:auto;
@@ -132,4 +132,35 @@
   .redes{
       display: flex;
       align-items: center;
+  }
+
+/* media queries */
+
+  @media screen and (max-width: 768px) {
+      
+      header img{
+        width: 130px;
+      }
+      .contenedor-flex{
+       grid-template-columns: auto;
+        
+      }
+      
+    .card { 
+        width: 80vw;
+        align-items: center;
+      }
+      
+      .card img{
+        width: 300px;;
+        align-items: center;
+      }
+      .banner img {
+        width: 95vw;
+      }
+      
+      .banner{
+        margin-top: 150px;
+    }
+
   }
