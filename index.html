@@ -16,27 +16,45 @@
     <!-- inicio header -->
     
     <header>
-        <img src="./img/logo.webp" alt="logo">
-        <nav>
-            <ul>
-              <li>
-                <a href="index.html">inicio</a>
-              </li>
-              <li>
-                <a href="./pages/nosotros.html">nosotros</a>
-              </li>
-              <li>
-                <a href="./pages/servicios.html">servicios</a>
-              </li>
-              <li>
-                <a href="./pages/trabajos.html">trabajos</a>
-              </li>
-              <li>
-                <a href="./pages/contacto.html">contacto</a>
-              </li>
-            </ul>
-            
+       
+        <nav class="navbar bg-body-tertiary fixed-top">
+          <div class="container-fluid">
+             <img src="./img/logo.webp" alt="logo">
+            <button class="navbar-toggler buttom-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon menu-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="pages/trabajos.html">trabajos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="pages/nosotros.html">nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="pages/servicios.html">servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="pages/contacto.html">contacto</a>
+                  </li>                                
+                  </li>                   
+                  </li>
+                </ul>
+              
+              </div>
+            </div>
+          </div>
         </nav>
+
+
     </header>
 <!-- fin header -->
 
@@ -51,28 +69,28 @@
         <h1>Productos</h1>
         <div class="contenedor-flex">
            <div class="card">
-             <img src="img/img-ropa.png" alt="producto">
+             <img src="img/ropa1.jpeg" alt="producto">
                <div>
                  <h2>producto</h2>
                  <p>Lorem ipsum dolor sit amet c</p>
                </div>
            </div>
            <div class="card">
-             <img src="img/img-ropa.png" alt="producto">
+             <img src="img/ropa2.webp" alt="producto">
               <div>
                 <h2>producto</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisic</p>
               </div>
            </div>
            <div class="card">
-             <img src="img/img-ropa.png" alt="producto">
+             <img src="img/ropa3.jpeg" alt="producto">
               <div>
                 <h2>producto</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adi</p>
               </div>
            </div>
            <div class="card">
-             <img src="img/img-ropa.png" alt="producto">
+             <img src="img/ropa4.jpeg" alt="producto">
               <div>
                 <h2>producto</h2>
                 <p>Lorem ipsum dolor sit amet con</p>
@@ -86,7 +104,7 @@
 
 <footer>
       
-      <div class="redes"> 
+      <div class="redes-grid"> 
         <h3>Siguenos</h3>
         <a href="https://www.facebook.com/" target="_blank"><img src="img/kisspng-facebook-comp6.jpg" alt="logo-facebook"></a>
       
