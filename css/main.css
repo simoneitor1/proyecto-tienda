@@ -1,0 +1,94 @@
+/* estilos de header*/
+header {
+  position: fixed;
+  z-index: 1;
+}
+header .menu-icon {
+  background-image: url(../img/burger-menu-com.svg);
+}
+header .buttom-menu {
+  margin-right: 20px;
+}
+header nav img {
+  width: 200px;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  column-gap: 10px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+}
+
+/*estilos main*/
+main {
+  margin-top: 215px;
+  background-color: black;
+}
+main .banner {
+  margin-top: 220px;
+  display: flex;
+  gap: 0px;
+  width: auto;
+}
+main .contenedor-flex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 0px;
+}
+main .card {
+  margin-bottom: 40px;
+  width: 300px;
+  height: 400px;
+  background-color: gray;
+  text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 24px 23px 30px 9px rgba 0, 0, 0, 0.51;
+  -webkit-box-shadow: 24px 23px 30px 9px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 24px 23px 30px 9px rgba(0, 0, 0, 0.51);
+}
+main .card img {
+  object-fit: cover;
+  width: 100%;
+}
+main section {
+  margin-top: 40px;
+}
+main section h1 {
+  color: white;
+  margin: 40px;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 2px 1px 2px white;
+}
+
+/*estilos footer*/
+footer {
+  background-color: grey;
+  display: flex;
+}
+footer .redes-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+footer .redes-grid img {
+  width: 40px;
+}
+footer h3 {
+  color: beige;
+  margin: 40px;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 2px 1px 2px white;
+}
+
+/*# sourceMappingURL=main.css.map */
