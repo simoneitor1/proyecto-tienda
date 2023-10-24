@@ -1,4 +1,4 @@
-/* estilos de header*/
+/*estilos header*/
 header {
   position: fixed;
   z-index: 1;
@@ -24,6 +24,7 @@ header nav ul li a {
   font-family: "Fira Sans Extra Condensed", sans-serif;
 }
 
+/*main index*/
 /*estilos main*/
 main {
   margin-top: 215px;
@@ -50,9 +51,9 @@ main .card {
   text-align: center;
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: 24px 23px 30px 9px rgba 0, 0, 0, 0.51;
-  -webkit-box-shadow: 24px 23px 30px 9px rgba(0, 0, 0, 0.51);
-  -moz-box-shadow: 24px 23px 30px 9px rgba(0, 0, 0, 0.51);
+  box-shadow: 5px 5px 5px 5px rgba 0, 0, 0, 0.51;
+  -webkit-box-shadow: 5px 5px 5px 5px rgba(207, 206, 206, 0.51);
+  -moz-box-shadow: 5px 5px 5px 5px rgba(201, 201, 201, 0.51);
 }
 main .card img {
   object-fit: cover;
@@ -69,14 +70,14 @@ main section h1 {
   text-shadow: 2px 1px 2px white;
 }
 
-/*estilos footer*/
+/*estilos-footer*/
 footer {
   background-color: grey;
   display: flex;
 }
 footer .redes-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-items: center;
 }
@@ -89,6 +90,31 @@ footer h3 {
   font-size: 30px;
   text-align: center;
   text-shadow: 2px 1px 2px white;
+}
+
+/*media-queries*/
+@media screen and (max-width: 768px) {
+  main {
+    margin-top: 100px;
+  }
+  .logo {
+    width: 180px;
+    margin-bottom: 20px;
+  }
+  .contenedor-flex {
+    grid-template-columns: auto;
+  }
+  .card {
+    width: 70vw;
+    align-items: center;
+  }
+  .card img {
+    width: 270px;
+    align-items: center;
+  }
+  .banner img {
+    width: 95vw;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

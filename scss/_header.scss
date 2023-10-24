@@ -1,0 +1,31 @@
+/*estilos header*/
+header{
+    position:fixed;
+    z-index: 1;
+    .menu-icon{
+        background-image: url(../img/burger-menu-com.svg);
+      }
+      .buttom-menu{
+        margin-right: 20px;
+        }   
+        nav{
+            img{                
+            width: 200px;
+              }
+            ul{
+                list-style: none;
+                display: flex;
+                column-gap: 10px;
+                
+                li{
+                    
+                    a{
+                        text-decoration: none;
+                        color:white;
+                        font-size: 20px; 
+                        font-family: 'Fira Sans Extra Condensed', sans-serif;
+                    }
+                }
+            }
+        }
+    }

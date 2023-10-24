@@ -1,0 +1,21 @@
+/*estilos-footer*/ 
+    footer{ background-color:grey;
+        display: flex;
+        .redes-grid{
+            img{
+                width: 40px;               
+            }
+            display: grid;
+            grid-template-columns:repeat(3,1fr);
+            align-items: center;
+            justify-items: center;
+        }
+        h3{ 
+            color: beige;
+            margin: 40px;
+            font-size: 30px;
+            text-align: center;
+            text-shadow: 2px 1px 2px white;
+            
+        }
+    }

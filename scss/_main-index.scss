@@ -1,0 +1,50 @@
+/*main index*/
+/*estilos main*/
+main{
+    margin-top: 215px;
+    background-color: black;
+    .banner{
+        margin-top: 220px;
+        display: flex;
+        gap: 0px;
+        width:auto;        
+    }
+    .contenedor-flex{ 
+        display: flex;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-bottom: 0px;
+      } 
+      .card{    
+        margin-bottom: 40px;
+        width: 300px;
+        height: 400px;
+        background-color:gray;
+        text-align: center;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 5px 5px 5px 5px rgba (0,0,0,0.51);
+        -webkit-box-shadow: 5px 5px 5px 5px rgba(207, 206, 206, 0.51);
+        -moz-box-shadow: 5px 5px 5px 5px rgba(201, 201, 201, 0.51); 
+    }
+    .card img{
+        object-fit: cover;
+        width: 90%; 
+    }
+    
+    .card-coleccion img{
+        width: 100%;
+        height: calc(100% - 100px);
+    }
+
+    section{margin-top: 40px;
+
+        h1{ color: white;
+            margin: 40px;
+            font-size: 50px;
+            text-align: center;
+            text-shadow: 2px 1px 2px white;
+        }  
+    }
+}

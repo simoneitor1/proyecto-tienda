@@ -140,38 +140,29 @@
 
 /* media queries */
 
-  @media screen and (max-width: 768px) {
-
+  /* @media screen and (max-width: 768px) {
       main{
         margin-top: 80px;
       }
-
-
       .logo{
         width: 150px;
       }
-
       .contenedor-flex{
        grid-template-columns: auto;
         
       }
-      
     .card { 
         width: 80vw;
         align-items: center;
-      }
-      
+      }      
       .card img{
         width: 270px;;
         align-items: center;
       }
       .banner img {
         width: 95vw;
-      }
-      
+      }     
       .banner{
         margin-top: 150px;
-    }
-    
-  
-  }
+    } 
+  } */

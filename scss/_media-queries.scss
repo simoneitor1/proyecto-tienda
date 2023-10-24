@@ -1,0 +1,26 @@
+/*media-queries*/
+@media screen and (max-width: 768px) {
+    main{
+      margin-top: 100px;
+    }
+    .logo{
+      width: 180px;
+      margin-bottom: 20px;
+    }
+    .contenedor-flex{
+     grid-template-columns: auto;
+      
+    }
+  .card { 
+      width: 70vw;
+      align-items: center;
+    }      
+    .card img{
+      width: 270px;;
+      align-items: center;
+    }
+    .banner img {
+      width: 95vw;
+    }     
+ 
+}
