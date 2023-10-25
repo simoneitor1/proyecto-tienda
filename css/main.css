@@ -57,7 +57,7 @@ main .contenedor-flex {
   margin-bottom: 0px;
 }
 main .card {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   width: 300px;
   height: 400px;
   font-family: "montserrat" sans-serif;
@@ -85,6 +85,14 @@ main section h1 {
   font-size: 50px;
   text-align: center;
   text-shadow: 2px 1px 2px white;
+}
+main .contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+main .contact div label {
+  color: white;
 }
 
 /*estilos-footer*/
@@ -126,6 +134,7 @@ footer .redes-grid img {
   }
   .banner img {
     width: 95vw;
+    object-fit: cover;
   }
 }
 
