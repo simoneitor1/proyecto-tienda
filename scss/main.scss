@@ -1,12 +1,21 @@
+// reset
+@import"utilities/reset";
+// utilities
+@import"utilities/variables";
+// mixins
+@import"./utilities/mixins";
+// extends
+@import"./utilities/extend";
+
 // header-estilos
-@import"header";
+@import"components/header";
 // main-index estilos
-@import"main-index";
+@import"components/pages/main-index";
 // footer-estilos
-@import"footer";
+@import"components/footer";
 
 //media queries
-@import"media-queries";
+@import"utilities/media-queries";
 
 
 
