@@ -3,6 +3,8 @@
 main{
     margin-top: 215px;
     background-color: $color-principal;
+    
+
     .banner img{
         margin-top: 220px;
         display: flex;
@@ -14,10 +16,12 @@ main{
     .contenedor-flex{ 
         @include flex(space-evenly,wrap);     
         gap: 40px;
-        margin-bottom: 0px;
+        height:auto ;
+        h2 { color:$color-secundario;} 
+        p{color:$color-secundario;}
       } 
       .card{     
-        margin-bottom: 30px;
+        margin-bottom: 40px;
         width: 300px;
         height: 400px;
         @extend %estilos-colores;
@@ -25,22 +29,31 @@ main{
         text-align: center;
         border-radius: 20px;
         overflow: hidden;
+        cursor: pointer;
         box-shadow: 5px 5px 5px 5px rgba (0,0,0,0.51);
         -webkit-box-shadow: 5px 5px 5px 5px rgba(207, 206, 206, 0.51);
         -moz-box-shadow: 5px 5px 5px 5px rgba(201, 201, 201, 0.51);  
     }
     
-    
+    .card:hover{
+        transform: scale(1.1);
+        transition: 1.1s;
+    }
     .card img{
         object-fit: cover;
         width: 100%;
         height: 100%;    
     }
     
+    
     .coleccion{
         height: calc(100% - 100px);
     }
     
+    .coleccion:hover{
+        transform: scale(1.1);
+        transition: 1.5s;
+    }
     section{margin-top: 40px;
 
         h1{ color: $color-secundario;
@@ -57,5 +70,10 @@ main{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    gap: 5px;  
+  }   
 }
-}
+
+
+
+
